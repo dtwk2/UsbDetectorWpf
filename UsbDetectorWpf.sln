@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbDetectorWpf", "UsbDetectorWpf\UsbDetectorWpf.csproj", "{C9A9E8EC-F9FC-4F1C-8037-8AF8FEFABDE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsbDetector", "UsbDetector\UsbDetector.csproj", "{B8A72F4F-4E39-4C60-ABAA-4083170452A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsbDetectorWpf.Core", "UsbDetectorWpf.Core\UsbDetectorWpf.Core.csproj", "{657D19BB-B6D6-4C2E-BE18-441BD9BCB559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C9A9E8EC-F9FC-4F1C-8037-8AF8FEFABDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A9E8EC-F9FC-4F1C-8037-8AF8FEFABDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A9E8EC-F9FC-4F1C-8037-8AF8FEFABDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A72F4F-4E39-4C60-ABAA-4083170452A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A72F4F-4E39-4C60-ABAA-4083170452A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A72F4F-4E39-4C60-ABAA-4083170452A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A72F4F-4E39-4C60-ABAA-4083170452A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657D19BB-B6D6-4C2E-BE18-441BD9BCB559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657D19BB-B6D6-4C2E-BE18-441BD9BCB559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657D19BB-B6D6-4C2E-BE18-441BD9BCB559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657D19BB-B6D6-4C2E-BE18-441BD9BCB559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
